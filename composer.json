@@ -1,0 +1,13 @@
+{
+  "name": "seu-user/twig-finder",
+  "description": "Ferramenta CLI para localizar arquivos .twig em projetos Drupal",
+  "type": "project",
+  "require": {
+    "symfony/console": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwigFinder\\": "src/"
+    }
+  }
+}
